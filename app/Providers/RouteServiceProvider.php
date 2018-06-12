@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Providers;
+namespace personal_site\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'dex_teste\Http\Controllers';
+    protected $namespace = 'personal_site\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

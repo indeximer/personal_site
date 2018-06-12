@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        dex_teste\Providers\AppServiceProvider::class,
-        dex_teste\Providers\AuthServiceProvider::class,
-        // dex_teste\Providers\BroadcastServiceProvider::class,
-        dex_teste\Providers\EventServiceProvider::class,
-        dex_teste\Providers\RouteServiceProvider::class,
+        personal_site\Providers\AppServiceProvider::class,
+        personal_site\Providers\AuthServiceProvider::class,
+        // personal_site\Providers\BroadcastServiceProvider::class,
+        personal_site\Providers\EventServiceProvider::class,
+        personal_site\Providers\RouteServiceProvider::class,
 
     ],
 

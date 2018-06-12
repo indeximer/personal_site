@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Http\Middleware;
+namespace personal_site\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

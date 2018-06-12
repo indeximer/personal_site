@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste;
+namespace personal_site;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>dEx_Teste - Douglas Fortunato</title>
+        <title>Douglas Fortunato</title>
 
         <link href="/css/app.css" rel="stylesheet" type="text/css">
     </head>
@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-xl navbar-dark bg-dark navbar-laravel fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    dEx_Teste
+                    Douglas Fortunato
                 </a>
                 <button class="navbar-toggler ml-auto" type="button">
                     <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,11 @@
             <aside class="side-menu-wrapper">
                 <ul class="side-menu">
                     <li><a href="/admin">Home</a></li>
-                    <li><a href="/admin/noticias">Notícias</a></li>
+                    <li><a href="/admin/config">Configurações Gerais</a></li>
+                    <li><a href="/admin/bio">Bio</a></li>
+                    <li><a href="/admin/portfolio">Portfólio</a></li>
+                    <li><a href="/admin/mensagens">Mensagens</a></li>
+                    <!-- <li><a href="/admin/noticias">Notícias</a></li> -->
                     <li><a href="/" target="_blank">Ver o site</a></li>
                     <li>
                         <a class="d-xl-none" href="{{ route('logout') }}"

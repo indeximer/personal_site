@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Http\Controllers;
+namespace personal_site\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

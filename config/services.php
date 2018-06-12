@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => dex_teste\User::class,
+        'model' => personal_site\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

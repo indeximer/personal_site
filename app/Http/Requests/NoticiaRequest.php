@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Http\Requests;
+namespace personal_site\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Exceptions;
+namespace personal_site\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

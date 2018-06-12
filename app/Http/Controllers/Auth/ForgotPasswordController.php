@@ -1,8 +1,8 @@
 <?php
 
-namespace dex_teste\Http\Controllers\Auth;
+namespace personal_site\Http\Controllers\Auth;
 
-use dex_teste\Http\Controllers\Controller;
+use personal_site\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

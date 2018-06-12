@@ -1,9 +1,9 @@
-<?php namespace dex_teste\Http\Controllers;
+<?php namespace personal_site\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
 use Request;
-use dex_teste\Noticias;
-use dex_teste\Http\Requests\NoticiaRequest;
+use personal_site\Noticias;
+use personal_site\Http\Requests\NoticiaRequest;
 use Illuminate\Validation\Rule;
 
 Class AdminController extends Controller{

@@ -23,7 +23,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "dex_teste\\": "app/"
+            "personal_site\\": "app/"
         }
     },
     "autoload-dev": {

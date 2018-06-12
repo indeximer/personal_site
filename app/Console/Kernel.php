@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Console;
+namespace personal_site\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

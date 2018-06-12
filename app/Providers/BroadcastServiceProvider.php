@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Providers;
+namespace personal_site\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

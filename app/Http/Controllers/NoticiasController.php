@@ -1,8 +1,8 @@
-<?php namespace dex_teste\Http\Controllers;
+<?php namespace personal_site\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
 use Request;
-use dex_teste\Noticias;
+use personal_site\Noticias;
 
 Class NoticiasController extends Controller{
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste;
+namespace personal_site;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

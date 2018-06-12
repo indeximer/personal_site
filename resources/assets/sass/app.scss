@@ -1,12 +1,9 @@
 
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
-// Icons
+// Icons & Fonts
 @import url("https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css");
-
-// Variables
-@import "variables";
+@import '~font-awesome/scss/font-awesome';
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic");
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -14,79 +11,12 @@
 // Datetimepicker
 @import './jquery.datetimepicker.css';
 
-body{
-  color:$default-color
-}
-a, a:hover, a:focus, a:visited{
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-ul{
-  margin: 0;
-  padding: 0;
-}
-ul li{list-style: none;}
-.color-white{color:#fff;}
-
-.lista-noticias a{color:$default-color;}
-.lista-noticias a:hover{
-  background: #f0f0f0;
-}
-.lista-noticias .card-text{min-height: 92px;}
-.lista-noticias h2{
-  height: 34px;
-  overflow: hidden;
-}
-
-.post-content .card-body{padding: 30px 130px;}
-.custom-file-input:lang(en) ~ .custom-file-label::after{content:'Selecione';}
-
-/* ADMIN */
-.admin-header{padding: 55px 0 0 0;}
-.admin-container{padding: 0 50px 0 350px;}
-.side-menu{
-  background: $side-menu-bg;
-  position: fixed;
-  left: 0;
-  top: 55px;
-  width: 300px;
-  height: calc(100% - 55px);
-  transition:all 0.3s ease;
-}
-.side-menu a{
-  display: block;
-  background: $side-menu-bg;
-  width: 100%;
-  float: left;
-  padding: 15px;
-  color:#fff;
-  border-bottom: solid 1px #343A40;
-}
-.side-menu a:hover{background: rgb(102, 112, 122)}
-
-.list-admin .links{width: 127px;}
-/* ADMIN /END */
-
-@media screen and (max-width:1024px){
-  .admin-container{padding: 0 15px;}
-  .side-menu{left:-300px;}
-  .side-menu.active{left:0;}
-  .side-menu-wrapper{
-    background: rgba(0,0,0,0.7);
-    position: fixed;
-    top:54px;
-    left: 0;
-    width: 100%;
-    height: calc(100% - 54px);
-    display: none;
-    z-index: 2;
-  }
-  .post-content .card-body{padding: 15px;}
-  h1, .h1 {font-size: 26px;}
-}
-
-
-@media screen and (max-width:768px){
-  .lista-noticias .card-text{min-height: auto;}
-  .lista-noticias h2{height: auto;}
-}
+@import "variables";
+@import "mixins";
+@import "global";
+@import "navbar";
+@import "masthead";
+@import "portfolio";
+@import "contact";
+@import "footer";
+@import "bootstrap-overrides";

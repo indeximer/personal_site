@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Http\Middleware;
+namespace personal_site\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as Middleware;
 

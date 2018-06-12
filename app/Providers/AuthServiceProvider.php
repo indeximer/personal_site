@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Providers;
+namespace personal_site\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'dex_teste\Model' => 'dex_teste\Policies\ModelPolicy',
+        'personal_site\Model' => 'personal_site\Policies\ModelPolicy',
     ];
 
     /**

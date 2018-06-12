@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => dex_teste\User::class,
+            'model' => personal_site\User::class,
         ],
 
         // 'users' => [

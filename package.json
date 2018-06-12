@@ -20,7 +20,9 @@
     "vue": "^2.5.7"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "jquery-datetimepicker": "^2.5.20",
+    "jquery.easing": "^1.4.1",
     "open-iconic": "^1.1.1"
   }
 }

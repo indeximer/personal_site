@@ -1,6 +1,6 @@
 <?php
 
-namespace dex_teste\Providers;
+namespace personal_site\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'dex_teste\Events\Event' => [
-            'dex_teste\Listeners\EventListener',
+        'personal_site\Events\Event' => [
+            'personal_site\Listeners\EventListener',
         ],
     ];
 

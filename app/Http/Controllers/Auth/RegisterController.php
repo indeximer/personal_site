@@ -1,9 +1,9 @@
 <?php
 
-namespace dex_teste\Http\Controllers\Auth;
+namespace personal_site\Http\Controllers\Auth;
 
-use dex_teste\User;
-use dex_teste\Http\Controllers\Controller;
+use personal_site\User;
+use personal_site\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \dex_teste\User
+     * @return \personal_site\User
      */
     protected function create(array $data)
     {
